@@ -5,7 +5,7 @@ import unicodecsv as csv
 
 
 #CHANGE THESE SETTINGS!
-saveDirectory = '/Users/bpettis/Desktop/Qanon Memes/'
+saveDirectory = '/path/to/parent/directory/'
 boardLetter = 'pol'
 
 print ("The current working directory is " + saveDirectory)  

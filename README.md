@@ -5,6 +5,8 @@ Use python to scrape the posts, replies, and files from the front page of a 4cha
 
 This simple Python script uses 4chan's read-only APIs (https://github.com/4chan/4chan-API) to scrape the information from the front page of a given imageboard. In addition to saving every image posted to the board, the script will also generate multiple CSV files that record which threads were on the front page at a given time. A folder is generated for each thread's images, as well as an individual CSV file that records each reply in the thread as well.
 
+I'm doing research on anonymous online communities, the ways they communicate with one another, and how they're able to influence real events in the physical world. Rather than manually browsing and downloading content from 4chan imageboards, I built this script to automatically scrape the most recent content from a given 4chan imageboard.
+
 ## Required Modules: ##
 This script uses the following python modules:
 - unidecode
@@ -26,6 +28,8 @@ Make sure that you have all of these installed and updated.
 
 2. Run the `4chan Downloader.py` python file. 
 3. That's it. Just sit back and wait.
+
+Included in the repo is an example of a front page scrape from /tv/ - including examples of what the CSV files will look like. These folders would also contain the downloaded images, of course, but I didn't see any need to re-upload those to GitHub.
 
 ## Known Issues: ##
 Full disclaimer - I have no real Python training, and I barely know what I'm doing... I'm sure that as written I've broken a lot of conventions and of course am not doing things "the right way." But it works. Most of the time. Here are some problems that I know about and may get around to fixing eventually.
